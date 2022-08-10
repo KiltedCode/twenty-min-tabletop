@@ -1,0 +1,25 @@
+{
+  "name": "twenty-min-tabletop",
+  "version": "0.1.0",
+  "description": "20 Minute Tabletop website",
+  "main": "index.html",
+  "scripts": {
+    "sass": "node-sass -w app/scss/ -o app/css/ --recursive --output-style compressed",
+    "sass-expanded": "node-sass -w app/scss/ -o app/css/ --recursive",
+    "serve": "cd app && http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiltedCode/twenty-min-tabletop.git"
+  },
+  "author": "john_wickee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiltedCode/twenty-min-tabletop/issues"
+  },
+  "homepage": "https://github.com/KiltedCode/twenty-min-tabletop#readme",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "node-sass": "^7.0.1"
+  }
+}
